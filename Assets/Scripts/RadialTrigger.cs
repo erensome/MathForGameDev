@@ -30,17 +30,6 @@ public class RadialTrigger : MonoBehaviour
         print(isInside ? "inside" : "outside");
     }
 #endif
-    public void Func() => print("hello");
-
-    // Cheaper Check Distance Function
-    // IEnumerator CheckDistanceCor()
-    // {
-    //     while (true)
-    //     {
-    //         yield return new WaitForSeconds(.4f);
-    //         print("Checkledim");
-    //         // Check Distance Logic goes here...
-    //     }
-    // }
+    
 }
 
